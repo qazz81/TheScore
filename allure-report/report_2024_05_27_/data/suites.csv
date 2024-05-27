@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 27 09:22:19 EDT 2024","Mon May 27 09:22:57 EDT 2024","37910","","Welcome to theScore with Toronto Maple Leafs","","","","should navigate to the Team Stats page for Toronto Maple Leafs and back to the Main page, unregister user",""
+"passed","Mon May 27 09:23:31 EDT 2024","Mon May 27 09:24:03 EDT 2024","32380","","Welcome to theScore with Montreal Canadiens","","","","should navigate to the Team Stats page for Montreal Canadiens and back to the Main page, unregister user",""
+"passed","Mon May 27 09:24:03 EDT 2024","Mon May 27 09:24:30 EDT 2024","26858","","Welcome to theScore with Montreal Canadiens","","","","should navigate to the Schedule page for Montreal Canadiens and back to the Main page, unregister user",""
+"passed","Mon May 27 09:22:57 EDT 2024","Mon May 27 09:23:31 EDT 2024","34114","","Welcome to theScore with Toronto Maple Leafs","","","","should navigate to the Schedule page for Toronto Maple Leafs and back to the Main page, unregister user",""

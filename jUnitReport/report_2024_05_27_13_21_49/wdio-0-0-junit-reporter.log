@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="Welcome to theScore with Toronto Maple Leafs" timestamp="2024-05-27T09:22:19" time="72.028" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Welcome to theScore with Toronto Maple Leafs"/>
+      <property name="capabilities" value="android.159efabc"/>
+      <property name="file" value="file:///C:/TheScore/test/specs/test.e2e.js"/>
+    </properties>
+    <testcase classname="android.159efabc.Welcome_to_theScore_with_Toronto_Maple_Leafs" name="should navigate to the Team Stats page for Toronto Maple Leafs and back to the Main page unregister user" time="37.91">
+      <system-out><![CDATA[
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/remove_app - {"appId":"com.fivemobile.thescore"}
+RESULT: {"appId":"com.fivemobile.thescore"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/install_app - {"appPath":"C:\\TheScore\\app\\theScore_24_9_0.apk"}
+RESULT: {"appPath":"C:\\TheScore\\app\\theScore_24_9_0.apk"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/activate_app - {"appId":"com.fivemobile.thescore"}
+RESULT: {"appId":"com.fivemobile.thescore"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000087/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_allow"}
+RESULT: {"using":"css selector","value":"#btn_allow"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1050-ffff-ffff000001ff/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1052-ffff-ffff00000013/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000096/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_close_btn"}
+RESULT: {"using":"css selector","value":"#search_close_btn"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#search_close_btn"}
+RESULT: {"using":"css selector","value":"#search_close_btn"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_src_text"}
+RESULT: {"using":"css selector","value":"#search_src_text"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000278/clear - {}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000278/value - {"text":"Toronto Maple Leafs"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+RESULT: {"text":"Toronto Maple Leafs"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff000002af/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_secondary"}
+RESULT: {"using":"css selector","value":"#btn_secondary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff0000008a/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1053-ffff-ffff000003e5/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.ImageButton"}
+RESULT: {"using":"xpath","value":"//android.widget.ImageButton"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff000003d8/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/label\"])[2]"}
+RESULT: {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/label\"])[2]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000405/text - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/icon_team_logo\"])[1]"}
+RESULT: {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/icon_team_logo\"])[1]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000403/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_logo"}
+RESULT: {"using":"css selector","value":"#team_logo"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000454/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[1]"}
+RESULT: {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[1]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff000004c0/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[2]"}
+RESULT: {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[2]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000461/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_logo"}
+RESULT: {"using":"css selector","value":"#team_logo"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000454/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_name"}
+RESULT: {"using":"css selector","value":"#team_name"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000459/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_name"}
+RESULT: {"using":"css selector","value":"#team_name"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000459/text - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_description"}
+RESULT: {"using":"css selector","value":"#team_description"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff0000045a/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_form_value"}
+RESULT: {"using":"css selector","value":"#team_form_value"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000455/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_form_label"}
+RESULT: {"using":"css selector","value":"#team_form_label"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000456/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#streak_value"}
+RESULT: {"using":"css selector","value":"#streak_value"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000457/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#streak_label"}
+RESULT: {"using":"css selector","value":"#streak_label"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000458/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"NEWS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"NEWS\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff000004ad/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"CHAT\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"CHAT\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff000004b0/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"TEAM STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"TEAM STATS\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff000004b3/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"TEAM STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"TEAM STATS\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff000004b3/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff0000057c/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff0000057c/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_secondary_text\"])[1]"}
+RESULT: {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_secondary_text\"])[1]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff0000057d/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/text_category_name\" and @text=\"Goals\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/text_category_name\" and @text=\"Goals\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000580/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/text_value\"])[1]"}
+RESULT: {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/text_value\"])[1]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff00000581/text - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"accessibility id","value":"Navigate up"}
+RESULT: {"using":"accessibility id","value":"Navigate up"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff0000045e/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#icon"}
+RESULT: {"using":"css selector","value":"#icon"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-104f-ffff-ffff000006bf/displayed - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="android.159efabc.Welcome_to_theScore_with_Toronto_Maple_Leafs" name="should navigate to the Schedule page for Toronto Maple Leafs and back to the Main page unregister user" time="34.114">
+      <system-out><![CDATA[
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/remove_app - {"appId":"com.fivemobile.thescore"}
+RESULT: {"appId":"com.fivemobile.thescore"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/install_app - {"appPath":"C:\\TheScore\\app\\theScore_24_9_0.apk"}
+RESULT: {"appPath":"C:\\TheScore\\app\\theScore_24_9_0.apk"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/activate_app - {"appId":"com.fivemobile.thescore"}
+RESULT: {"appId":"com.fivemobile.thescore"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff00000087/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_allow"}
+RESULT: {"using":"css selector","value":"#btn_allow"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1058-ffff-ffff000001ff/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105a-ffff-ffff0000002f/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff00000096/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_close_btn"}
+RESULT: {"using":"css selector","value":"#search_close_btn"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#search_close_btn"}
+RESULT: {"using":"css selector","value":"#search_close_btn"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_src_text"}
+RESULT: {"using":"css selector","value":"#search_src_text"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff00000278/clear - {}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff00000278/value - {"text":"Toronto Maple Leafs"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+RESULT: {"text":"Toronto Maple Leafs"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Toronto Maple Leafs\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff000002af/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_secondary"}
+RESULT: {"using":"css selector","value":"#btn_secondary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff0000008a/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105b-ffff-ffff000003e5/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.ImageButton"}
+RESULT: {"using":"xpath","value":"//android.widget.ImageButton"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff000003d8/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#icon"}
+RESULT: {"using":"css selector","value":"#icon"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff000003f9/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#icon"}
+RESULT: {"using":"css selector","value":"#icon"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1057-ffff-ffff000003f9/displayed - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Welcome to theScore with Montreal Canadiens" timestamp="2024-05-27T09:23:31" time="59.245" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Welcome to theScore with Montreal Canadiens"/>
+      <property name="capabilities" value="android.159efabc"/>
+      <property name="file" value="file:///C:/TheScore/test/specs/test.e2e.js"/>
+    </properties>
+    <testcase classname="android.159efabc.Welcome_to_theScore_with_Montreal_Canadiens" name="should navigate to the Team Stats page for Montreal Canadiens and back to the Main page unregister user" time="32.38">
+      <system-out><![CDATA[
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/remove_app - {"appId":"com.fivemobile.thescore"}
+RESULT: {"appId":"com.fivemobile.thescore"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/install_app - {"appPath":"C:\\TheScore\\app\\theScore_24_9_0.apk"}
+RESULT: {"appPath":"C:\\TheScore\\app\\theScore_24_9_0.apk"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/activate_app - {"appId":"com.fivemobile.thescore"}
+RESULT: {"appId":"com.fivemobile.thescore"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000087/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_allow"}
+RESULT: {"using":"css selector","value":"#btn_allow"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1060-ffff-ffff000001ff/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1062-ffff-ffff0000004b/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000096/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_close_btn"}
+RESULT: {"using":"css selector","value":"#search_close_btn"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#search_close_btn"}
+RESULT: {"using":"css selector","value":"#search_close_btn"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_src_text"}
+RESULT: {"using":"css selector","value":"#search_src_text"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000278/clear - {}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000278/value - {"text":"Montreal Canadiens"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+RESULT: {"text":"Montreal Canadiens"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000002af/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_secondary"}
+RESULT: {"using":"css selector","value":"#btn_secondary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff0000008a/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1063-ffff-ffff000003d3/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.ImageButton"}
+RESULT: {"using":"xpath","value":"//android.widget.ImageButton"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000003c6/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/label\"])[2]"}
+RESULT: {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/label\"])[2]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000003f3/text - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/icon_team_logo\"])[1]"}
+RESULT: {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/icon_team_logo\"])[1]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000003f1/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_logo"}
+RESULT: {"using":"css selector","value":"#team_logo"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000444/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[1]"}
+RESULT: {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[1]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000004b0/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[2]"}
+RESULT: {"using":"xpath","value":"(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[2]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000451/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_logo"}
+RESULT: {"using":"css selector","value":"#team_logo"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000444/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_name"}
+RESULT: {"using":"css selector","value":"#team_name"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000449/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_name"}
+RESULT: {"using":"css selector","value":"#team_name"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000449/text - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_description"}
+RESULT: {"using":"css selector","value":"#team_description"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff0000044a/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_form_value"}
+RESULT: {"using":"css selector","value":"#team_form_value"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000445/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#team_form_label"}
+RESULT: {"using":"css selector","value":"#team_form_label"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000446/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#streak_value"}
+RESULT: {"using":"css selector","value":"#streak_value"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000447/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#streak_label"}
+RESULT: {"using":"css selector","value":"#streak_label"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000448/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"NEWS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"NEWS\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff0000049d/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"CHAT\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"CHAT\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000004a0/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"TEAM STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"TEAM STATS\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000004a3/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@text=\"TEAM STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@text=\"TEAM STATS\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000004a3/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff0000056c/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_text\" and @text=\"OFFENSIVE STATS\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff0000056c/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_secondary_text\"])[1]"}
+RESULT: {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/header_secondary_text\"])[1]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff0000056d/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/text_category_name\" and @text=\"Goals\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/text_category_name\" and @text=\"Goals\"]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000570/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/text_value\"])[1]"}
+RESULT: {"using":"xpath","value":"(//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/text_value\"])[1]"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff00000571/text - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"accessibility id","value":"Navigate up"}
+RESULT: {"using":"accessibility id","value":"Navigate up"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff0000044e/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#icon"}
+RESULT: {"using":"css selector","value":"#icon"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-105f-ffff-ffff000006af/displayed - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="android.159efabc.Welcome_to_theScore_with_Montreal_Canadiens" name="should navigate to the Schedule page for Montreal Canadiens and back to the Main page unregister user" time="26.858">
+      <system-out><![CDATA[
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/remove_app - {"appId":"com.fivemobile.thescore"}
+RESULT: {"appId":"com.fivemobile.thescore"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/install_app - {"appPath":"C:\\TheScore\\app\\theScore_24_9_0.apk"}
+RESULT: {"appPath":"C:\\TheScore\\app\\theScore_24_9_0.apk"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/appium/device/activate_app - {"appId":"com.fivemobile.thescore"}
+RESULT: {"appId":"com.fivemobile.thescore"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff00000087/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_allow"}
+RESULT: {"using":"css selector","value":"#btn_allow"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1068-ffff-ffff000001ff/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-106a-ffff-ffff00000067/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_bar_placeholder"}
+RESULT: {"using":"css selector","value":"#search_bar_placeholder"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff00000096/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_close_btn"}
+RESULT: {"using":"css selector","value":"#search_close_btn"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"css selector","value":"#search_close_btn"}
+RESULT: {"using":"css selector","value":"#search_close_btn"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#search_src_text"}
+RESULT: {"using":"css selector","value":"#search_src_text"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff00000276/clear - {}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff00000276/value - {"text":"Montreal Canadiens"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+RESULT: {"text":"Montreal Canadiens"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/elements - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.TextView[@resource-id=\"com.fivemobile.thescore:id/txt_name\" and @text=\"Montreal Canadiens\"]"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff000002ad/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_primary"}
+RESULT: {"using":"css selector","value":"#btn_primary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff00000087/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#btn_secondary"}
+RESULT: {"using":"css selector","value":"#btn_secondary"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff0000008a/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#dismiss_modal"}
+RESULT: {"using":"css selector","value":"#dismiss_modal"}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-106b-ffff-ffff000003d1/click - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"xpath","value":"//android.widget.ImageButton"}
+RESULT: {"using":"xpath","value":"//android.widget.ImageButton"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff000003c4/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#icon"}
+RESULT: {"using":"css selector","value":"#icon"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff000003e5/displayed - {}
+RESULT: {}
+COMMAND: POST /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element - {"using":"css selector","value":"#icon"}
+RESULT: {"using":"css selector","value":"#icon"}
+COMMAND: GET /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8/element/00000000-0000-1067-ffff-ffff000003e5/displayed - {}
+RESULT: {}
+COMMAND: DELETE /session/d6d994ce-ed05-4a4b-801e-7e5a5df3e8c8 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

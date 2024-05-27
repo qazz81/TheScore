@@ -1,0 +1,3 @@
+{
+  "appPath": "C:\\TheScore\\app\\theScore_24_9_0.apk"
+}

@@ -1,0 +1,5 @@
+# Disregard this entire folder
+*
+# Except this .gitignore file
+!.gitignore
+!report_2024_05_27_13_21_49

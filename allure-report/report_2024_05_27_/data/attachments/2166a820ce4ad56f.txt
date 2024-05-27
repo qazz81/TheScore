@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//android.widget.ImageView[@resource-id=\"com.fivemobile.thescore:id/action_alert\"])[1]"
+}

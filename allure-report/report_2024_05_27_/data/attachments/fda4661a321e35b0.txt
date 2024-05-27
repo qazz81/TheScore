@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#search_close_btn"
+}
